@@ -9,5 +9,5 @@ app.use(express.urlencoded({extended: false}));//también debe poder entender da
 //routes
 app.use(require('./routes/index'));
 
-app.listen(3000);//que el servidor guardado en app, escuche en el puerto 3000
-console.log('Server on port 3000');//una vez inicia el servidor muestra mensaje por consola
+app.listen(4000);//que el servidor guardado en app, escuche en el puerto 3000
+console.log('Server on port 4000');//una vez inicia el servidor muestra mensaje por consola

@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/IvanPerezAlarcon1/REST-NODEJS-POSTGRESQL/issues"
   },
-  "homepage": "https://github.com/IvanPerezAlarcon1/REST-NODEJS-POSTGRESQL#readme"
+  "homepage": "https://github.com/IvanPerezAlarcon1/REST-NODEJS-POSTGRESQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.0"
+  }
 }

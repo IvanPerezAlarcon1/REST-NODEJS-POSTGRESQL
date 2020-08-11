@@ -3,7 +3,7 @@ const {Pool} = require('pg'); //conjunto de conexiones necesarias para hacer pet
 const pool = new Pool ({
     host: 'localhost',
     user: 'postgres',
-    password: 'diablo123456789',
+    password: '',
     database: 'firstapi',
     port: '5432'//podemos darle el puerto, si no lo establece por defecto
 });

@@ -36,10 +36,10 @@ a lo que nos mostrará el mensaje `'Server on port 4000'`
 | EndPoint												  |   Tipo      	 | Ejemplo                        |
 | ----------------------------------|--------------- |--------------------------------|
 |/users/											   		| GET 			 | http://localhost:4000/users		|
-|/users/ <id>									          | GET		 | http://localhost:4000/users/1 	|
+|/users/:id									          | GET		 | http://localhost:4000/users/1 	|
 |/users/								            | POST      		 | http://localhost:4000/users		  |
-|/users/ <id>                       		| DELETE 		     | http://localhost:4000/users/1		|
-|/users/ <id>               		        | PUT  					 | http://localhost:4000/users/6   |
+|/users/:id                       		| DELETE 		     | http://localhost:4000/users/1		|
+|/users/:id               		        | PUT  					 | http://localhost:4000/users/6   |
   
  - En la tabla anterior el primer GET trae todos los registros de la API
  - El segundo GET trae un registro de la API según su ID

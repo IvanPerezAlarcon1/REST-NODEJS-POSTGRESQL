@@ -45,6 +45,6 @@ a lo que nos mostrará el mensaje `'Server on port 4000'`
  - El segundo GET trae un registro de la API según su ID
  - El método POST se usa para ingresar un registro a la API (el ID se genera automaticamente)
  - El método DELETE se usa para eliminar un registro según su ID
- - El método PUT se usa para modificar un registro según du ID
+ - El método PUT se usa para modificar un registro según su ID
 
 
